@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.main-container{
+  height: 100%;
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.container-images{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burger{
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+.leaf{
+  position: absolute;
+  top: 12%;
+  left: 28%;
+}
+.mono{
+  position: absolute;
+  top: 5%;
+  left: 73%;
+}
+.pizza{
+  position: absolute;
+  top: 45%;
+  left: 75%;
+}
+.tomato1{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.tomato2{
+  position: absolute;
+  top: 39%;
+  left: 83%;
+}
+.text-content{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+h1{
+  font-size: 64px;
+  line-height: 60px;
+  margin-bottom: 40px;
+  color: red;
+}
+p{
+  font-size: 24px;
+  max-width: 450px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+info-section{
+  display: flex;
+  justify-content: center;
+}
+.info-section{
+  display: flex;
+  margin-top: 120px;
+  background-color: rgba(255,255,255,0.95);
+  box-shadow: rgba(0,0,0,0.1);
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.info-item{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.info-text{
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
+.info-icon{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.info-number{
+  font-size: 24px;
+  font-family: bold;
+}
+.info-label{
+  font-size: 16px;
+  font-family: 500;
+  color: black;
+}
+
